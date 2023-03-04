@@ -1,6 +1,6 @@
 def GetText(Model, MaxTokens, Temperature, Prompt):  # 得到文本
   import openai
-  openai.api_key = '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'
+  openai.api_key = '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'
   response = openai.Completion.create(
     model=Model,
     max_tokens=MaxTokens,
